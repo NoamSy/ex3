@@ -249,7 +249,7 @@ void bestSelling(int cube[DAYS_IN_YEAR][NUM_OF_BRANDS][NUM_OF_TYPES], int days[N
             bestSellingBrand = brandSum;
             bestSellingBrandPos = brand;
         }
-        
+
     }
     //loop that will find the best selling type
     for (int type = 0; type < NUM_OF_TYPES; ++type)
@@ -327,6 +327,7 @@ int main() {
             }
         }
     }
+
     int days[NUM_OF_BRANDS] = {0,0 ,0 ,0,0};
     int choice;
     printMenu();
@@ -378,10 +379,8 @@ int main() {
         }
         case deltas:
             {
-
             averageDelta(cube, days);
             break;
-
             }
 
             default:
