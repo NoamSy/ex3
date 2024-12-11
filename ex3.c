@@ -29,7 +29,7 @@ void insertDailySales(int cube[DAYS_IN_YEAR][NUM_OF_BRANDS][NUM_OF_TYPES],
     /*if (day >= DAYS_IN_YEAR) //check if we have a available day
     {
         printf("no more space for data");
-        return;df
+        return;g
     }*/
 
     if (carIndex >= NUM_OF_BRANDS || carIndex < 0) //check if index is a valid brand number
